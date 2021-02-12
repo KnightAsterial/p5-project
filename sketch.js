@@ -11,7 +11,7 @@ function preload() {
 }
 
 function setup() {
-  let cnv = createCanvas(960, 720);
+  let cnv = createCanvas(960, 700);
   cnv.mouseClicked(togglePlay);
   fft = new p5.FFT();
   amplitude = new p5.Amplitude();
